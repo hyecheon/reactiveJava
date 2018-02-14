@@ -7,16 +7,16 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReactivejavaApplication implements ApplicationRunner {
+public class ReactiveJavaApplication implements ApplicationRunner {
 
     private final FirstExample firstExample;
 
-    public ReactivejavaApplication(@Autowired FirstExample firstExample) {
+    public ReactiveJavaApplication(@Autowired FirstExample firstExample) {
         this.firstExample = firstExample;
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(ReactivejavaApplication.class, args);
+        SpringApplication.run(ReactiveJavaApplication.class, args);
 
     }
 
